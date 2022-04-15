@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&family=Oswald:wght@200;300;400;500;600;700&family=Source+Sans+Pro:wght@200;300&display=swap');
+
+
+
+body {
+    max-width:960px;
+    margin: auto;
+    padding:auto;
+    font-family:'Montserrat', sans-serif;
+    font-size:18px;
+    font-weight: 700;
+    line-height: 1.5;
+    
+    display:grid;
+    grid-template-columns: 2 1fr;
+    grid-template-areas:
+      "header header"
+      "main    main"
+      "footer  footer";
+    grid-gap: 18px;
+
+}
+
+header{
+    grid-area: header;
+}
+
+main {
+    width: 960px;
+    margin: auto;
+    grid-area:main;
+}
+
+nav{
+    display: flex;
+    border: 2px dotted #e7d8d2;
+    flex-wrap: nowrap;
+    color:#dfbc94;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+th,
+td {
+    padding: 5px 10px;
+    border: 1px solid #3a3a3a;
+    align-content: center;
+   
+}
+
+
+h1 {
+    background-color: #94516a;
+    line-height: 80px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    background-color: #d09c97;
+    line-height: 50px;
+    margin: 10px 0;
+    text-align: center;
+    font-size:25px;
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    color: #d09c97;
+    font-weight: bold;
+    margin: 10px 0;
+    font-size:20px;
+}
+
+figcaption {
+    margin: 5px;
+    font-size:16px;
+    font-weight: 300;
+  
+}
+.aa{
+    display: grid;
+}
+.aa figure:nth-child(1){
+    grid-column: 1;
+}
+.aa figure:nth-child(2){
+    grid-column: 2;
+}
+
+.center {
+    text-align: center;
+}
+
+.flex {
+    display: grid;
+    grid-gap: 5px;
+}
+
+
+figure {
+    box-shadow: 0px 0px 5px 0px #999;
+    border-radius: 10px;
+    margin: 10px;
+    padding:15px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+li {
+    margin:5px;
+    box-align:left;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #35bfff
+}
+
+a:hover {
+    color: #262f80
+}
+
+a:active {
+    color: #ca5da6
+}
+
+
+.link {
+    text-decoration: underline;
+    color: #fff;
+    text-align:center;
+    
+}
+
+.tag {
+    display: inline-block;
+    background-color: #e7d8d2;
+    padding: 5px 5px;
+    border-radius: 10px;
+    color: rgb(124, 124, 124);
+    margin: 10px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.Geography_box {
+    display: grid;
+    justify-content: space-between;
+    grid-auto-flow: row;
+    grid-gap:18px;
+}
+
+
+
+.Geography_box .left {
+    display: grid;
+    width: 510px;
+    margin-right: 50px;
+    grid-column: 1;
+}
+
+.Geography_box .right {
+    display: grid;
+    margin-right:5px;
+    grid-column: 2;
+}
+
+.land{
+    display:grid;
+    margin:20px;
+}
+
+footer{
+    display:grid;
+   align-items:end;
+   justify-items: right;
+   margin-right:5px;
+   grid-area:footer;
+}
+
