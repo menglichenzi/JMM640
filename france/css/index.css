@@ -180,7 +180,7 @@ table{
 }
 
 footer{
-    display:grid;
+   display:grid;
    align-items:end;
    justify-items: right;
    margin-right:5px;
