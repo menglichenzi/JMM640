@@ -58,6 +58,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: rgb(255, 255, 255);
+  bacground-color:rgb(206, 196, 214);
 }
 
 h1 {
@@ -69,10 +70,7 @@ h1 {
   max-width: 1000px;
   margin: auto;
   padding: 10px;
-<<<<<<< HEAD
-
-=======
->>>>>>> 3c14de3eea810e3566a20a77ccb80b0a30e7c1c9
+ 
 }
 
 
