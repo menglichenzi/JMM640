@@ -52,11 +52,13 @@ img {
   vertical-align: top;
 }
 
+
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: rgb(255, 255, 255);
-  background-color: #e6e3e3;
+  background-color: #d9d2e4;
 }
 
 h1 {
@@ -65,9 +67,11 @@ h1 {
 }
 
 #wrapper {
-  max-width: 960px;
-  margin: 0 auto;
+  max-width: 1000px;
+  margin: auto;
   padding: 10px;
+  background-image: url("img/scene.png");
+  background-size:contain;
 }
 
 
@@ -262,7 +266,7 @@ footer {
   justify-items: right;
   margin-right: 200px;
   grid-area: footer;
-  color: #d9d9d9;
+  color: #060606;
 
 }
 .navcont {
